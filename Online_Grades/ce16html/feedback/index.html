@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Feedback for CMPE80N Winter 2013</title>
+
+<script language="javascript" type="text/javascript">
+
+function limitText(limitField, limitCount, limitNum)
+{
+   if (limitField.value.length > limitNum)
+   {
+      limitField.value = limitField.value.substring(0, limitNum);
+   }
+   else
+   {
+      limitCount.value = limitNum - limitField.value.length;
+   }
+}
+</script>
+
+</head>
+
+<body>
+<br />
+<br />
+<table width="52%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="center"><b>100% Anonymous Feedback for CMPE80N Winter 2013</b></td>
+  </tr>
+  <tr>
+    <td align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">Feedback about lectures, quizzes, labs, tests, TAs, rants about why Pluto was demoted from being classified as a planet, etc.</td>
+  </tr>
+  <form id="form" name="form" method="post" action="feedbackMail.cgi">
+  <tr>
+    <td align="center"><textarea name="feedbackText" id="feedbackText" cols="100" rows="5" onKeyDown="limitText(this.form.feedbackText,this.form.countdown,2000);" onKeyUp="limitText(this.form.feedbackText,this.form.countdown,2000);"></textarea>
+    <br><font-size="1"><input readonly type="text" name="countdown" size="4" value="2000"> characters left</font>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><br>Have a lot to say? Submit two (or more) messages - they <b>will</b> be truncated at 2000 characters each.</td>
+  </tr>
+  <tr>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">
+      <input type="submit" name="submit" id="submit" value="Submit" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center"><h5>*If* you want us to respond  to you (i.e. not anonymous), send an email directly or talk to one of us in person.</h5></td>
+  </tr>
+  </form>
+</table>
+<h5><i><center>Page and scripts created by Daniel Hiranandani 2011.
+<br>Problems? Email <img src="../emailAddress.png"></center></i></h5>
+
+</body>
+</html>

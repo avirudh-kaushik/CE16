@@ -1,0 +1,61 @@
+<html>
+<head>
+<title>FAQ Page for Grade Retrieval Site</title>
+</head>
+<body>
+
+<br>
+<center><h2>Here are some commonly asked Questions and Answers about this website</h2></center>
+<ol>
+  <li><b>I keep getting &quot;* Last Name INVALID *&quot; when I try to log in; what the heck?</b><br>
+  &nbsp;&nbsp;-&nbsp;This error means that your last name is formatted improperly. Be sure to format your last name exactly as it is stored by UCSC - <a href="http://campusdirectory.ucsc.edu">http://campusdirectory.ucsc.edu</a>. Examples: Smith, Smith-Anderson (You might want to email a TA to verify the correct formatting if you have a complicated last name)
+  <br><br>
+  <li><b>I get &quot;* ID INVALID *&quot; when I try to log in; why!?</b><br>
+  &nbsp;&nbsp;-&nbsp;This error means that your ID is formatted improperly. It must be 7 digits, and only numbers are accepted. Example: 1234567 
+  <br><br>
+  <li><b>I keep getting an error like &quot;Student with Lastname:
+  'Xxxxxx', and ID: '#######' was not found in grading spreadsheet&quot;.</b><br>
+  &nbsp;&nbsp;-&nbsp;See #1, and if your last name is formatted *exactly* the same way as the Campus Directory displays it, then see #4.
+  <br><br>
+  <li><b>I try to log in but I see &quot;No data available for [...,
+  ...]&quot;, what did I do wrong?</b><br>
+  &nbsp;&nbsp;-&nbsp;This means that your name/ID number are <i>formatted</i> correctly, but you either typed your name wrong, typed your ID number wrong, and/or we don't have one of those pieces of information stored in our grading spreadsheet (which is <b>not</b> automatically synchronized to the class roster). If your last name and ID number are correct (they will be shown when you see this error), then let one of the TAs know about the problem and give them your full name and student ID number.
+  <br><br>
+  <li><b>The TA or professor said they updated my grade so why is it not showing up here?</b><br>
+  &nbsp;&nbsp;-&nbsp;There (currently) is no automatic link between the <i>real</i> grading spreadsheet and this online version, so updates to the real grades won't immediately be reflected here. I need to do a few things manually before the grades are updated, so it takes some time. This is done partially by design - having no direct connection to the real spreadsheet removes the danger of having outside users access the spreadsheet directly.
+   <br><br>
+  <li><b>Why is this site so picky about last names/ID number formatting?</b><br>
+  &nbsp;&nbsp;-&nbsp;Your last name and ID number are &quot;<a
+  href="https://secure.wikimedia.org/wikipedia/en/wiki/Hash_table"
+  target="_blank">hashed</a>&quot; to produce a long number that
+  uniquely identifies that combination of last name/ID number. This
+  provides a level of security, and it also abstracts away grades from
+  individual users - the raw data file contains grades and hashed
+  numbers, not grades and names. The pickyness arises in the hashing
+  because &quot;smith&quot; is not the same as &quot;Smith&quot; in the eyes of the computer, so they produce different hash values, and so both wouldn't be able to map to the same user's grades in the raw data file.
+  <br><br>
+  <li><b>I have a &quot;-&quot; for a grade, what does it mean?</b><br>
+  &nbsp;&nbsp;-&nbsp;We do not have a score recorded for you for that item. If you think this is an error, come to any section to pick up your lab/quiz so that you can show it to us and let us know that the grade should be fixed. Due to the shuffling of papers between TAs and the number of requests we get, you will need to take the initiative to come to section to correct missing grades.
+  <br><br>
+  <li><b>How is &quot;Current Quiz Average&quot; calculated?</b><br>
+  &nbsp;&nbsp;-&nbsp;&quot;Current Quiz Average&quot; is calculated
+  using ALL of the past quiz scores, include &quot;-&quot; grades (which are counted as zeros). It is meant to act as a <i>guide</i>, and will not be your final quiz average grade. Since several of your lowest quiz grades will be dropped at the end of the quarter, your Current Quiz Average may include grades that will later be dropped once enough quizzes have been taken to drop those lowest scores.
+  <br><br>
+  <li><b>How is &quot;Top Quiz Average&quot; calculated?</b><br>
+  &nbsp;&nbsp;-&nbsp;&quot;Top Quiz Average&quot; is calculated by averaging your available quiz scores AND dropping at least one of your lowest quiz scores. If your final grade comes out of 8 of the top 10 scores, then you will see the Top Quiz Average score after at least 8 quizzes have been taken. When 9 quizzes have been taken, then your single lowest score will be dropped, and so on.
+  <br><br>
+  <li><b>I'm tired of refreshing the page to look at all of the silly random images.. can I see them all more easily?</b><br>
+  &nbsp;&nbsp;-&nbsp;All of the random images are stored here: <a
+  href="http://users.soe.ucsc.edu/~veenstra/ce16/grades/images/">http://users.soe.ucsc.edu/~veenstra/ce80n/grades/images/</a>
+
+</ol>
+
+
+<br><br>
+<center><b><a href="http://users.soe.ucsc.edu/~avirudh/ce16/grades/">Back to Grade Login</a></b></center>
+
+<h5><i><center>Page and scripts created by Daniel Hiranandani 2011.
+<br>Problems? Email Your Instructor</center></h5>
+
+</body>
+</html>
